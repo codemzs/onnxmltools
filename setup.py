@@ -30,10 +30,11 @@ setup(
     license='MIT License',
     author='Microsoft Corporation',
     author_email='onnx@microsoft.com',
-    url='https://onnx.ai/',
+    url='https://github.com/onnx/onnx',
     packages=packages,
     include_package_data=True,
     install_requires=requirements,
+    keywords = ['ONNX', 'CoreML', 'scikit', 'Neural Network', 'Convert'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',
